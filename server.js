@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // mongoDB connect
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/sweatastic", { 
     useNewUrlParser: true 
     , useFindAndModify: false
 });
