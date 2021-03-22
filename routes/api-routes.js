@@ -1,4 +1,4 @@
-const Workout = require("../models/index.js");
+const Workout = require("../models/workout.js");
 const mongoose = require("mongoose");
 const router = require("express").Router();
 
